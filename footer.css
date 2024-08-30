@@ -1,0 +1,128 @@
+.footer-section {
+                    background-color: #f3d3d3;
+                    padding: 40px 20px;
+                    border-radius: 10px;
+                  }
+                  
+                  .footer-container {
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    flex-wrap: wrap; 
+                  }
+                  
+                  .footer-column {
+                    flex: 1;
+                    margin: 0 10px;
+                    min-width: 200px; 
+                  }
+                  
+                  .footer-logo {
+                    width: 120px;
+                    height: auto;
+                    margin-bottom: 20px;
+                  }
+                  
+                  .footer-column h3 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                    color: #333;
+                  }
+                  
+                  .footer-column p {
+                    font-size: 14px;
+                    color: #666;
+                    margin-bottom: 10px;
+                  }
+                  
+                  .footer-column a {
+                    text-decoration: none;
+                    color: #666;
+                  }
+                  
+                  .footer-column a:hover {
+                    color: #ff8c00;
+                  }
+                  
+                  .social-icons {
+                    display: flex;
+                    gap: 10px;
+                    margin-top: 20px;
+                  }
+                  
+                  .social-icons a img {
+                    width: 30px;
+                    height: 30px;
+                    transition: transform 0.3s ease;
+                  }
+                  
+                  .social-icons a img:hover {
+                    transform: scale(1.1);
+                  }
+                  
+                  .newsletter-input {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                  }
+                  
+                  .newsletter-input input {
+                    padding: 10px;
+                    font-size: 14px;
+                    border: 1px solid #f3d9d9;
+                    border-radius: 20px 0 0 20px;
+                    outline: none;
+                    flex: 1;
+                  }
+                  
+                  .subscribe-btn {
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    border: none;
+                    background-color: #ff8c00;
+                    color: #fff;
+                    border-radius: 0 20px 20px 0;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                  }
+                  
+                  .subscribe-btn:hover {
+                    background-color: #e67600;
+                  }
+                  
+                
+                  @media only screen and (min-width: 200px) and (max-width: 576px) {
+                    .footer-container {
+                      flex-direction: column;
+                      align-items: center; 
+                      padding: 0 10px; 
+                    }
+                  
+                    .footer-column {
+                      margin-bottom: 20px; 
+                      width: 100%; 
+                      text-align: center; 
+                    }
+                  
+                    .newsletter-input {
+                      flex-direction: column; 
+                      width: 100%; 
+                    }
+                  
+                    .newsletter-input input {
+                      border-radius: 20px; 
+                      margin-bottom: 10px; 
+                    }
+                  
+                    .subscribe-btn {
+                      border-radius: 20px; 
+                      width: 100%; 
+                    }
+                    
+                    .social-icons {
+                      justify-content: center; 
+                    }
+                  }
+                  
