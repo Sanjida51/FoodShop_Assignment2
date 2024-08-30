@@ -213,8 +213,12 @@ body {
 .dashed-arrow {
     max-width: 250px; /* Adjust width as necessary */
     height: auto;
+    margin-bottom: 20px;
 }
 
+.abs{
+    display: flex;
+}
 
 .buttons {
     display: flex;
